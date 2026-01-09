@@ -1,0 +1,23 @@
+# Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+streamlit>=1.28.0        # Web app framework
+pandas>=2.0.0            # Data manipulation
+numpy>=1.24.0            # Numerical computing
+
+# Data format support
+pyarrow>=12.0.0          # Parquet file support
+
+# API and networking
+requests>=2.31.0         # HTTP requests for TMDB API
+
+# Environment variables
+python-dotenv>=1.0.0     # Load .env files
+
+# Progress bars (for setup notebook)
+tqdm>=4.65.0             # Progress bars for data generation
+
+# Optional: Jupyter notebook support (if running setup_notebook.ipynb)
+jupyter>=1.0.0
+notebook>=6.5.0

@@ -1,0 +1,63 @@
+# Movie Recommendation System - Git Ignore Rules
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# The tmdb_dataset
+tmdb_dataset/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large data files (optional - uncomment if not committing large files)
+# *.npy
+# *.parquet
+# *.csv
+
+# NOTE: .env is NOT ignored - we keep it for academic demo purposes
+# For production, you should add .env to this file and use .env.example instead
