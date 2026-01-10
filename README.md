@@ -11,7 +11,7 @@ This project implements a **Content-Based Filtering** recommendation system for 
 - **Standardized numeric features** (runtime, ratings, popularity)
 - **Cosine similarity** for computing movie similarities
 
-The system recommends movies based on content features rather than user ratings, making it ideal for new users (no cold start problem).
+The system recommends movies based on content features rather than user ratings.
 
 
 ## Features
@@ -21,7 +21,6 @@ The system recommends movies based on content features rather than user ratings,
 - **Display movie posters** fetched from TMDB API
 - **Show detailed movie info** (genres, runtime, ratings, overview)
 - **Fast loading** with pre-computed recommendations (Parquet format)
-- **Modern dark UI** with responsive design
 - **16,000+ movies** in the database
 
 ## Project Structure
@@ -132,7 +131,7 @@ python -c "import streamlit; import pandas; import numpy; print('All packages in
 
 ## Data Pipeline
 
-The complete data science pipeline (in `MovieRecSys.ipynb`):
+The complete pipeline (in `MovieRecSys.ipynb`):
 
 ### 1. Data Collection
 - Source: TMDB API
