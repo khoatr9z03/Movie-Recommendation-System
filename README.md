@@ -161,7 +161,6 @@ The complete pipeline (in `MovieRecSys.ipynb`):
 - **Diversity**: 12% 
 - **Coverage**: 6.25% 
 
----
 
 ## Technologies
 
@@ -184,7 +183,6 @@ The complete pipeline (in `MovieRecSys.ipynb`):
 ### External APIs
 - **TMDB API**: Movie posters and metadata
 
----
 
 ## Dataset Statistics
 
